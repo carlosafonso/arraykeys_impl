@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * Custom implementation of PHP native
+ * function array_keys().
+ *
+ * @param	array	$array
+ * @param	mixed	$search_value
+ * @param	bool	$strict
+ * @return	array
+ */
 function array_keys_impl(array $array, $search_value = null, $strict = false)
 {
 	$ret = [];
